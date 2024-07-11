@@ -1,13 +1,12 @@
-// src/App.jsx
 import React from 'react';
-import Flow from './Flow';
+import NestedFlow from './NestedFlow.jsx'; 
 
-function App() {
+const App = () => {
   return (
-    <div style={{ width: '100vw', height: '100vh' }}>
-      <Flow />
+    <div className="App">
+      <NestedFlow />
     </div>
   );
-}
+};
 
 export default App;

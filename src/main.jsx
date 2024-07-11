@@ -1,11 +1,12 @@
 // src/main.jsx
 // import React from 'react';
 import ReactDOM from 'react-dom/client';
-import EdgeTypesFlow from './EdgeTypesFlow';
+import './NestedFlow'
 import './index.css';
+import NestedFlow from './NestedFlow';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <EdgeTypesFlow />
+    <NestedFlow />
   </React.StrictMode>
 );

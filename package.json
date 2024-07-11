@@ -10,9 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@xyflow/react": "^12.0.1",
+    "flow": "^0.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "reactflow": "^11.11.4"
+    "reactflow": "^11.11.4",
+    "render": "^0.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
